@@ -15,6 +15,8 @@ namespace MvcDemo.Controllers
 
         public IActionResult Index()
         {
+            var username = HttpContext.Session.GetString("username");
+            ViewBag.Username = username;
             return View();
         }
 

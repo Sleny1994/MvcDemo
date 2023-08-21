@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using MvcDemo.Models;
+using System.Text;
+using System.Web;
 using System.Xml.Linq;
 
 namespace MvcDemo.Controllers
@@ -77,6 +79,33 @@ namespace MvcDemo.Controllers
         public IActionResult Test4()
         {
             return View();
+        }
+
+        public IActionResult Test5()
+        {
+            Console.WriteLine($"Request.Host:{Request.Host}");
+            Console.WriteLine($"Request.Path:{Request.Path}");
+            Console.WriteLine($"Request.Protocol:{Request.Protocol}");
+            Console.WriteLine($"Request.ContentType:{Request.ContentType}");
+            Console.WriteLine($"Request.Headers:");
+            foreach (var header in Request.Headers)
+            {
+                Console.WriteLine($"{header.Key}:{header.Value}");
+            }
+            Console.WriteLine($"Request.Cookies:");
+            foreach (var cookie in Request.Cookies)
+            {
+                Console.WriteLine($"{cookie.Key}:{cookie.Value}");
+            }
+
+            return View();
+        }
+
+        public IActionResult Test6()
+        {
+            var author = HttpUtility.UrlEncode("王五", Encoding.UTF8);
+            Response.Headers.Add("Author", author);
+            return Json("1");
         }
     }
 }
