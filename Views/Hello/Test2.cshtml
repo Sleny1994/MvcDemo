@@ -1,0 +1,23 @@
+﻿@{
+    var name = ViewBag.Name;
+    var age = ViewBag.Age;
+    name = name + "_Zl";
+    age = age + 1;
+}
+<h1>欢迎光临！~</h1>
+<div>
+    <span>姓名：</span>
+    <span>@ViewBag.Name</span>
+</div>
+<div>
+    <span>年龄：</span>
+    <span>@ViewBag.Age</span>
+</div>
+<div>
+    <span>姓名：</span>
+    <span>@name</span>
+</div>
+<div>
+    <span>年龄：</span>
+    <span>@age</span>
+</div>
