@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MvcDemo.Entities;
-using MvcDemo.Models;
+using MvcDemo.Interfaces;
 
 namespace MvcDemo.Controllers
 {

@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Server.Kestrel.Core;
 using Microsoft.EntityFrameworkCore;
 using MvcDemo.Entities;
+using MvcDemo.Interfaces;
 using MvcDemo.Models;
 using System.ComponentModel.DataAnnotations;
 using System.Text.Encodings.Web;

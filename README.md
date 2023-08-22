@@ -16,3 +16,10 @@ This is a .NET Core MMVC Demo.
 [6. ASP.NET Core MVC 数据库](https://sleny1994.github.io/2023/08/21/ASP.NET%20Core%20MVC%20%E6%95%B0%E6%8D%AE%E5%BA%93/)
 
 [7. ASP.NET Core MVC HttpContext](https://sleny1994.github.io/2023/08/21/ASP.NET%20Core%20MVC%20HttpContext/)
+
+[8. ASP.NET Core MVC 序列化]()
+
+[9. ASP.NET Core MVC 文件上传]()
+
+## Tks
+/* 笔记学习于ASP.NET Core MVC 从入门到精通 By 小六公子 */

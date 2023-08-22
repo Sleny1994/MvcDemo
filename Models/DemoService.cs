@@ -1,4 +1,6 @@
-﻿namespace MvcDemo.Models
+﻿using MvcDemo.Interfaces;
+
+namespace MvcDemo.Models
 {
     public class DemoService : IDemoService
     {

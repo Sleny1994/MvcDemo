@@ -1,4 +1,6 @@
-﻿<h1>欢迎光临！~</h1>
+﻿@model MvcDemo.Models.Product
+
+<h1>欢迎光临！~</h1>
 <form action="~/Hello/Save" method="post">
     <div style="margin:10px;">
         <span>学号：</span>
@@ -19,4 +21,44 @@
     <div style="margin:10px;">
         <input type="submit" name="submit" value="保存" />
     </div>
+</form>
+
+<form method="post" enctype="multipart/form-data" action="/File/OneFileUpload">
+    <h1>单文件上传</h1>
+    <div>
+        <span>文件：</span>
+        <input type="file" name="file" />
+    </div>
+    <input type="submit" value="上传" />
+</form>
+
+<form method="post" enctype="multipart/form-data" action="/File/MoreFileUpload">
+    <h1>多文件上传</h1>
+    <div>
+        <span>文件：</span>
+        <input type="file" name="files" multiple />
+    </div>
+    <input type="submit" value="上传" />
+</form>
+
+<form method="post" enctype="multipart/form-data" action="/File/FileWithContentUpload">
+    <h1>文件文本混合上传</h1>
+    <div>
+        <span>名称：</span>
+        <input type="text" name="Name"  />
+    </div>
+    <div>
+        <span>文件：</span>
+        <input type="file" name="File" />
+    </div>
+    <input type="submit" value="上传" />
+</form>
+
+<form method="post" enctype="multipart/form-data" action="/File/BigFileUpload">
+<h1>大文件上传</h1>
+<div>
+    <span>文件：</span>
+    <input type="file" name="file" />
+</div>
+<input type="submit" value="上传" />
 </form>
