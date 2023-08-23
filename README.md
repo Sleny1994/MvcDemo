@@ -17,9 +17,11 @@ This is a .NET Core MMVC Demo.
 
 [7. ASP.NET Core MVC HttpContext](https://sleny1994.github.io/2023/08/21/ASP.NET%20Core%20MVC%20HttpContext/)
 
-[8. ASP.NET Core MVC 序列化]()
+[8. ASP.NET Core MVC 序列化](https://sleny1994.github.io/2023/08/22/ASP.NET%20Core%20MVC%20%E5%BA%8F%E5%88%97%E5%8C%96/)
 
-[9. ASP.NET Core MVC 文件上传]()
+[9. ASP.NET Core MVC 文件上传](https://sleny1994.github.io/2023/08/22/ASP.NET%20Core%20MVC%20%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/)
+
+[10. ASP.NET Core MVC 自动映射](https://sleny1994.github.io/2023/08/23/ASP.NET%20Core%20MVC%20%E8%87%AA%E5%8A%A8%E6%98%A0%E5%B0%84/)
 
 ## Tks
 /* 笔记学习于ASP.NET Core MVC 从入门到精通 By 小六公子 */
