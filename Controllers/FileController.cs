@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Net.Http.Headers;
 using MvcDemo.Models;
+using Microsoft.AspNetCore.Http.Features;
 
 namespace MvcDemo.Controllers
 {
@@ -68,6 +68,7 @@ namespace MvcDemo.Controllers
             }
             var path = Path.Combine(_webHostEnvironment.ContentRootPath, "uploads");
 
+            var _defaultFormOptions = new FormOptions();
             var boundary = MultipartRequestHelper.GetBoundary(MediaTypeHeaderValue.Parse(Request.ContentType), _defaultFormOptions.MultipartBoundaryLengthLimit);
 
             var reader = new MultipartReader(boundary, HttpContext.Request.Body);
