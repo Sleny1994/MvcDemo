@@ -23,5 +23,17 @@ This is a .NET Core MMVC Demo.
 
 [10. ASP.NET Core MVC 自动映射](https://sleny1994.github.io/2023/08/23/ASP.NET%20Core%20MVC%20%E8%87%AA%E5%8A%A8%E6%98%A0%E5%B0%84/)
 
+[11. ASP.NET Core MVC HTML辅助标签](https://sleny1994.github.io/2023/08/23/ASP.NET%20Core%20MVC%20HTML%E8%BE%85%E5%8A%A9%E6%A0%87%E7%AD%BE/)
+
+[12. ASP.NET Core MVC 日志管理](https://sleny1994.github.io/2023/08/24/ASP.NET%20Core%20MVC%20%E6%97%A5%E5%BF%97%E7%AE%A1%E7%90%86/)
+
+[13. ASP.NET Core MVC 鉴权授权](https://sleny1994.github.io/2023/08/24/ASP.NET%20Core%20MVC%20%E9%89%B4%E6%9D%83%E6%8E%88%E6%9D%83/)
+
+[14. ASP.NET Core MVC Identity](https://sleny1994.github.io/2023/08/24/ASP.NET%20Core%20MVC%20Identity/)
+
+[15. ASP.NET Core MVC Filter](https://sleny1994.github.io/2023/08/24/ASP.NET%20Core%20MVC%20Filter/)
+
+[16. ASP.NET Core MVC 缓存](https://sleny1994.github.io/2023/08/24/ASP.NET%20Core%20MVC%20%E7%BC%93%E5%AD%98/)
+
 ## Tks
 /* 笔记学习于ASP.NET Core MVC 从入门到精通 By 小六公子 */
