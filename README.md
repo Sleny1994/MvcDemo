@@ -1,6 +1,6 @@
 # MvcDemo
 
-This is a .NET Core MMVC Demo.
+This is a .NET Core MVC Demo.
 
 ## Study Notes
 [1. ASP.NET Core MVC »ù´¡](https://sleny1994.github.io/2023/08/16/ASP.NET%20Core%20MVC%20%E5%9F%BA%E7%A1%80/)
